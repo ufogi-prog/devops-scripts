@@ -1,0 +1,29 @@
+{
+  "serviceName": "devops-scripts",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "status": "healthy",
+  "version": "1.2.3",
+  "uptimeSeconds": 3600,
+  "cpuUsage": 0.15,
+  "memoryUsage": 0.60,
+  "diskSpaceAvailableGB": 50,
+  "activeThreads": 10,
+  "responseTimesMs": {
+    "api1": 25,
+    "api2": 30,
+    "api3": 40
+  },
+  "dependencies": [
+    {
+      "name": "database-server",
+      "status": "healthy"
+    },
+    {
+      "name": "message-queue",
+      "status": "healthy"
+    }
+  ],
+  "environment": "production",
+  "buildId": "abcdef123456",
+  "commitHash": "fedcba987654"
+}
